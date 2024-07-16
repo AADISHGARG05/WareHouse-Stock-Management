@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Kelly Slab' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main" >
+        <header>
+            <div class="header" >
+                <div class="logo">
+
+                </div>
+
+
+            </div>
+        </header>
+        <div class="second">
+            <div class="Home">Home</div>
+            <div class="Home">Inventory</div>
+            <div class="Home">Employees</div>
+            <div class="Home">Tool Issue</div>
+            <div class="Home">Supplier</div>
+            <div class="Home">Production</div>
+            <div class="Home">Molds</div>
+
+        </div>
+        <div class="third">
+            <div class="main2" >
+                <div class="stock">
+                    <div class="stock-update">Stock Update</div>
+                </div>
+                <div class="container">
+                    <form>
+                        <div class="one">
+                        <label for="department">Department:</label>
+                        <input type="text" id="department" name="department" value=""><br><br>
+                    
+                        <label for="productType">Product Type:</label>
+                        <input type="text" id="productType" name="productType" value=""><br><br>
+                        </div>
+
+                        <div class="two">                        
+                        <label for="itemName">Item Name:</label>
+                        <input type="text" id="itemName" name="itemName" value=""><br><br>
+                        
+                        <label for="company">Company:</label>
+                        <input type="text" id="company" name="company" value=""><br><br>
+                        </div>
+
+                        <div class="three">
+                        <label for="productCode">Product Code:</label>
+                        <input type="text" id="productCode" name="productCode" value=""><br><br>
+
+                        <label for="quality">Quality:</label>
+                        <input type="text" id="quality" name="quality" value=""><br><br>
+                        </div>
+
+                        <div class="four">
+                        <label for="itemCode">Item Code:</label>
+                        <input type="text" id="itemCode" name="itemCode" value=""><br><br>
+                    
+                        <label for="quantity">Quantity:</label>
+                        <input type="text" id="quantity" name="quantity" value=""><br><br>
+                        </div>
+                        <div class="five">
+                        <label for="purchasePrice" >Purchase Price:</label>
+                        <input type="text" id="purchasePrice" name="purchasePrice" value="" class="he"><br><br>
+                        </div>
+                        <div class="six">
+                        <button type="button" onclick="clearForm()" >Clear</button>
+                        <button type="button" onclick="updateStock()" class="hehe">Update</button>
+                        </div>
+                      </form>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
